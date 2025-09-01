@@ -1,0 +1,8 @@
+{
+  "name": "edgee-switch",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-09-01",
+  "routes": [
+    { "pattern": "checkout.testtheedgefun.com/*", "zone_name": "testtheedgefun.com" }
+  ]
+}
