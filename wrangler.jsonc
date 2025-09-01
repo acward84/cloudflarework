@@ -1,5 +1,5 @@
 {
-  "name": "edgee-switch",
+  "name": "testshopify",
   "main": "src/worker.js",
   "compatibility_date": "2025-09-01",
   "routes": [
