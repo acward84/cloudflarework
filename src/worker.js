@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env, ctx) {
     const REQUIRED_HEADER   = "X-shopifyEdgee-Auth";
-    const EDGE_PROXY_URL    = "checkouttest.edgee.app"; //"https://fixcheckedprj.edgee.app";  // Edgee origin
+    const EDGE_PROXY_URL    = "https://checkouttest.edgee.app"; //"https://fixcheckedprj.edgee.app";  // Edgee origin
     const SHOPIFY_HOSTNAME  = "shops.myshopify.com";              // Shopify CNAME
     const PUBLIC_HOSTNAME   = "checkout.testtheedgefun.com";      // your domain
 
